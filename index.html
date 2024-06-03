@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kytín - Domovská stránka</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .alert {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            padding: 20px;
+            background-color: #f44336;
+            color: white;
+            text-align: center;
+            z-index: 1000;
+        }
+
+        .close {
+            position: absolute;
+            top: 5px;
+            right: 10px;
+            font-size: 20px;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="alert" id="alert">
+        <span class="close" onclick="closeAlert()">&times;</span>
+        <strong>Pozor:</strong> Na návsi se vylil rybník. Pohybujte se prosím opatrně. Poslední aktualizace: 2. června 2024
+    </div>
+    <header>
+        <h1>Vítejte v naší obci!</h1>
+        <img src="BUM2.png" alt="fotografie obce">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#o-obci">O obci</a></li>
+            <li><a href="#aktuality">Aktuality</a></li>
+            <li><a href="#proc-navstivit">Proč navštívit</a></li>
+            <li><a href="#kontakty">Kontakty</a></li>
+			<li><a href="#galerie">Galerie</a></li>
+            <!-- Další položky menu -->
+        </ul>
+    </nav>
+    <main>
+        <section id="o-obci">
+            <h2>O obci</h2>
+            <p>Hledáte klidné místo obklopené krásnou přírodou, kde si odpočinete od shonu velkoměsta? Pak je pro vás Kytín ideální volbou. Tato malebná vesnička se nachází v jihozápadním cípu okresu Praha-západ, jen pár kilometrů od Mníšku pod Brdy. Kytín se pyšní bohatou historií sahající až do 13. století a nabízí malebné prostředí obklopené lesy a loukami.</p>
+			<img src="https://www.kytin.eu/data/editor/177cs_1_big.jpg?gcm_date=1426717597" alt="fotografi" style="max-width: 50%; height: auto;">
+        </section>
+        <section id="aktuality">
+            <h2>Aktuality</h2>
+			<div class="aktualita">
+				<h3>Nová událost</h3>
+				<p>Popis sfhgbashbfiabsd</p>
+				<p>Datum: 2. června 2024</p>
+			</div>
+            <!-- Nejnovější události a novinky -->
+        </section>
+        <section id="proc-navstivit">
+            <h2>Proč navštívit</h2>
+			<p><strong>Pěší turistika a cyklistika:</strong> Okolí Kytína je protkáno sítí turistických a cykloturistických tras, které vedou do Brd. Zvláště oblíbená je trasa na Tříkrálovský vrch, odkud se otevírá krásný výhled na okolní krajinu.</p>
+            <p><strong>Odpočinek v přírodě:</strong> Kytínská louka je chatová oblast, která se nachází v těsném sousedství Kytína. Nabízí ideální místo pro rekreaci a odpočinek v přírodě. V létě si tu můžete užít koupání v rybníku, opalování na pláži a sportovní aktivity. V zimě je Kytínská louka ideálním místem pro běžkaře.</p>
+            <p><strong>Navštivte kostel Nanebevzetí Panny Marie:</strong> Dominantou obce je kostel Nanebevzetí Panny Marie z 14. století, který prošel barokní úpravou.</p>
+            <p><strong>Ochutnejte českou kuchyni:</strong> V Kytíně se nachází několik hospůdek a restaurací, kde si můžete pochutnat na tradičních českých pokrmech.</p>
+            <p><strong>Zajděte si na nákupy:</strong> V obci se také nachází obchod se smíšeným zbožím a pošta.</p>
+            <!-- Popis atrakcí a zajímavostí obce -->
+        </section>
+        <section id="kontakty">
+            <h2>Kontakty</h2>
+            <!-- Seznam kontaktních údajů -->
+        </section>
+        <!-- Další sekce -->
+		<section id="galerie">
+			<h2>Galerie</h2>
+    </main>
+    <footer>
+        <p>&copy; 2024 Kytín - Všechna práva vyhrazena</p>
+    </footer>
+	<script>
+		function closeAlert() {
+			document.getElementById("alert").style.display = "none";
+		}
+	</script>
+</body>
+</html>

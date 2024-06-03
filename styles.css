@@ -1,0 +1,94 @@
+/* Styly pro hlavičku */
+.alert {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	padding: 20px;
+	background-color: #f44336;
+	color: white;
+	font-size: 16px;
+	z-index: 1000;
+	text-align: center;
+}
+
+.close {
+	position: absolute;
+	top: 5px;
+	right: 10px;
+	font-size: 20px;
+	color: white;
+	cursor: pointer;
+}
+
+
+header {
+    background-color: #007bff;
+    padding: 40px;
+    text-align: center;
+	color: #fff;
+}
+
+/* Styly pro navigaci */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+	padding: 20px 30px;
+	font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: #007bff;
+}
+
+
+/* Styly pro sekce */
+section {
+    padding: 40px;
+    margin-bottom: 20px;
+    background-color: #f2f2f2;
+}
+
+/* Styly pro sekce s obrázky */
+section img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Zajišťuje, že obrázek nebude "viset" pod textem */
+    margin: 0 auto; /* Zarovnání obrázku na střed */
+}
+
+/* Styly pro patičku */
+footer {
+    background-color: #28a745;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Barva textu v sekcích */
+section h2 {
+    color: #007bff; /* Modrá barva pro nadpisy */
+	font-size: 24px
+}
+
+section p {
+    color: #333;
+	font-size: 18px; /* Černá barva pro běžný text */
+}
+
+nav {
+    background-color: #f44336; /* Červená barva pro pozadí */
+    color: #ffffff; /* Bílá barva pro text */
+    padding: 10px 0; /* Zvětšení vnitřního okraje */
+}
