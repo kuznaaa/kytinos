@@ -20,6 +20,19 @@
 	cursor: pointer;
 }
 
+.image-section {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-top: 20px;
+}
+
+.image-section img {
+	max-width: 45%;
+	height: auto;
+	margin: 5px;
+}
+
 
 header {
     background-color: #007bff;
